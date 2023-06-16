@@ -2,6 +2,7 @@
 
 /**
  * main - A program using the funxtion puts
+ *
  * return: Always 0 (success)
  */
 int main(void)
