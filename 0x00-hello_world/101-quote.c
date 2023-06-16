@@ -1,13 +1,19 @@
+
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
- * main - Entry point
- * Return: Always 1 (Success)
+ * main - Entry Point
+ *
+ * Description: It prints a string to standard error
+ *
+ * Return: 1, exit and terminate function
  */
 int main(void)
 {
-	write(STDOUT_FILENO, "and that piece of art is useful
-			\" - Dora Korpar, 2015-10-19\n", 59);
+	char msg[] = "and that piece of art is useful\" - Dora Korpar, 2015-10-19";
+
+	fprintf(stderr, "%s\n", msg);
+
 	return (1);
 }
+
