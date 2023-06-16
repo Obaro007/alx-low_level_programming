@@ -7,7 +7,7 @@
  *
  * Description: Assign a random number to the variable n, in order to print the last digit
  *
- * Return: Always 0 (success)
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
