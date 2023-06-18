@@ -3,7 +3,7 @@
 /**
  * Main - Entry Point
  *
- * Description: Prints all possible combinations of single-digit numbers
+ * Description: Prints all possible combinations of single-digit numbers.
  *
  * Return: Always 0 (Success)
  */
@@ -22,7 +22,7 @@ int main(void)
 		}
 	}
 
-	printf("%s", "\n");
+	putchar("%s", "\n");
 
 	return (0);
 }
