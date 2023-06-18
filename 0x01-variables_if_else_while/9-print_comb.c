@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
  * Description: Prints all possible combinations of single-digit numbers.
  *
@@ -11,7 +11,7 @@ int main(void)
 {
 	int i;
 
-	for (1 = 0; i <= 10; c++)
+	for (i = 0; i < 10; i++)
 	{
 		putchar(i + '0');
 
@@ -22,7 +22,8 @@ int main(void)
 		}
 	}
 
-	putchar('\n');
+	printf("%s", "\n");
 
 	return (0);
 }
+
