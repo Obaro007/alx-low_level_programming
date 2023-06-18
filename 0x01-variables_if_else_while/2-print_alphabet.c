@@ -9,9 +9,11 @@
  */
 
 int main(void)
-	char c;
 {
+	char c;
+
 	for (c='a'; c<='z'; c++)
+
 	{
 		putchar(c);
 	}
