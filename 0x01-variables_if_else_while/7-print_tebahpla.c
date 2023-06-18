@@ -3,10 +3,9 @@
 /**
  * main - Entry Point
  *
- * Description: Prints the lowercase alphabet in reverse
+ * Description: The program prints out alphabets in lowercase in reverse
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
