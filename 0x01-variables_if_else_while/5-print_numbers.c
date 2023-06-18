@@ -1,12 +1,11 @@
 #include <stdio.h>
 
 /**
- * Main - Entry Point
+ * main - Entry Point
  *
- * Description:  Prints all single digit numbers of base 10 starting from 0
+ * Description: Prints all single digit numbers of base 10 starting from 0
  *
  * Return: Always 0 (Success)
- *
  */
 int main(void)
 {
