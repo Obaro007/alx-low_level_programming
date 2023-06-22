@@ -7,10 +7,9 @@
  * Return: Always 0 (Success)
  */
 int main(void)
-
-int main(void)
 {
 	int next, num1 = 1, num2 = 2, sum = 0;
+
 	while (num1 <= 4000000)
 	{
 		if (num1 % 2 == 0)
