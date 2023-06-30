@@ -1,15 +1,15 @@
-0x03. C - Debugging
+0x04. C - Debugging
 
 General Onjectives
 What is debugging
 What are some methods of debugging manually
 How to read the error messages
 
-This program highlights some of the objectives mentioned above, 
-also explaining the process of debugging 
+This program highlights some of the objectives mentioned above,
+also explaining the process of debugging
 
-Debugging is the process of finding and fixing errors, or bugs, in your code. 
-It is an essential part of programming to ensure that your software functions correctly. 
+Debugging is the process of finding and fixing errors, or bugs, in your code.
+It is an essential part of programming to ensure that your software functions correctly.
 Here are some steps you can follow when debugging:
 
 Identify the problem
@@ -22,5 +22,3 @@ Use a debugger
 Seek help and collaborate
 Make incremental changes
 Retest and validate
-
-
