@@ -1,4 +1,4 @@
-u#include <stddef.h>
+#include <stddef.h>
 
 /**
  * array_iterator - The program executes a function given as a parameter on
