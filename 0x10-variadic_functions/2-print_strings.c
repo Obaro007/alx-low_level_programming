@@ -1,3 +1,6 @@
+#include <stdarg.h>
+#include <stdio.h>
+
 /**
  * print_strings - The program  prints strings, followed by a new line.
  * @separator: The string to be printed between numbers.
