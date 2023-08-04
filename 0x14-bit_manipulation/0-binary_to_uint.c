@@ -8,21 +8,21 @@
  */
 unsigned int binary_to_uint(const char *b)
 {
-	if (b == NULL)
-		return (0);
-
 	unsigned int result = 0;
+
+	if (!b)
+		return (0);
 
 	while (*b)
 	{
-		char ch = *b;
-
-		if (ch != '0' && ch != '1')
+		if (*b != '0' && *b != '1')
 			return (0);
 
-		result = (result << 1) + (ch - '0');
+		result = (result << 1) | (*b - '0');
+
 		b++;
 	}
+
 
 	return (result);
 }
